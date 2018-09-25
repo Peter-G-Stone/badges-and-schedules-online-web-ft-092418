@@ -4,15 +4,16 @@ end
 
 
 
-def batch_badge_creator(nameList)
+def batch_badge_creator(nameList = ["joe", "bob", "sue"])
   badgeList = []
   nameList.each do |name|
     badgeList.push("Hello, my name is #{name}.")
+    puts badgeList.last
   end
   return badgeList
 end 
 
-
+batch_badge_creator
 
 def assign_rooms(nameList)
   roomsArr = []
