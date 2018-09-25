@@ -23,7 +23,14 @@ def assign_rooms(nameList)
 end 
 
 def printer
+  arr = batch_badge_creator
+  arr.each do |msg|
+    puts msg
+  end 
   
-  
+  arr = assign_rooms(nameList)
+  arr.each do |msg|
+    puts msg
+  end 
 end 
 
