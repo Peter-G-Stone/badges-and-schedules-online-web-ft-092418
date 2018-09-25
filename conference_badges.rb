@@ -8,3 +8,7 @@ def batch_badge_creator(nameList)
   end 
 end 
 
+def assign_rooms(nameList)
+  nameList.each do |name|
+    
+end 
