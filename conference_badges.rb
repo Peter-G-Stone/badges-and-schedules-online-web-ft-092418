@@ -9,6 +9,6 @@ def batch_badge_creator(nameList)
 end 
 
 def assign_rooms(nameList)
-  newList = nameList.each do |name|
+  newListnameList.each do |name|
     
 end 
