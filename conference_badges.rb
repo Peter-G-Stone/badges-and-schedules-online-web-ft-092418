@@ -23,6 +23,6 @@ def assign_rooms(nameList)
 end 
 
 def printer
-  badge
+  
 end 
 
